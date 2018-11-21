@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "1c7986522d0b9f08196e66f223fed0b6"
+build_time: [1542815695, 611770000]
+inputs:
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/AFIError.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/Image.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/ImageCache.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/ImageDownloader.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/ImageFilter.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1542811978, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1542811978, 0]

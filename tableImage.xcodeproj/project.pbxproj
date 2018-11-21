@@ -12,6 +12,9 @@
 		089C5C7B21A5773600302735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C5C7921A5773600302735 /* Main.storyboard */; };
 		089C5C7D21A5773700302735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089C5C7C21A5773700302735 /* Assets.xcassets */; };
 		089C5C8021A5773700302735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C5C7E21A5773700302735 /* LaunchScreen.storyboard */; };
+		08D9FD7B21A58C4D00B565F8 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9FD7A21A58C4D00B565F8 /* NetworkHandler.swift */; };
+		08D9FD7D21A595B600B565F8 /* TCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9FD7C21A595B600B565F8 /* TCell.swift */; };
+		CD11C59C5EDB6E8E8C2EC89D /* Pods_tableImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A645F300FAF59522D1AFC7 /* Pods_tableImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		089C5C7C21A5773700302735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		089C5C7F21A5773700302735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		089C5C8121A5773700302735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D9FD7A21A58C4D00B565F8 /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		08D9FD7C21A595B600B565F8 /* TCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCell.swift; sourceTree = "<group>"; };
+		125110DB028F9058E0AB4390 /* Pods-tableImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tableImage/Pods-tableImage.debug.xcconfig"; sourceTree = "<group>"; };
+		16CA07CB5383713C672F5069 /* Pods-tableImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-tableImage/Pods-tableImage.release.xcconfig"; sourceTree = "<group>"; };
+		E5A645F300FAF59522D1AFC7 /* Pods_tableImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD11C59C5EDB6E8E8C2EC89D /* Pods_tableImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				089C5C7421A5773600302735 /* tableImage */,
 				089C5C7321A5773600302735 /* Products */,
+				50CFBFA30F7CEB1BE83F2472 /* Pods */,
+				8479B7909BB4D4D40441204E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +67,31 @@
 			children = (
 				089C5C7521A5773600302735 /* AppDelegate.swift */,
 				089C5C7721A5773600302735 /* ViewController.swift */,
+				08D9FD7C21A595B600B565F8 /* TCell.swift */,
+				08D9FD7A21A58C4D00B565F8 /* NetworkHandler.swift */,
 				089C5C7921A5773600302735 /* Main.storyboard */,
 				089C5C7C21A5773700302735 /* Assets.xcassets */,
 				089C5C7E21A5773700302735 /* LaunchScreen.storyboard */,
 				089C5C8121A5773700302735 /* Info.plist */,
 			);
 			path = tableImage;
+			sourceTree = "<group>";
+		};
+		50CFBFA30F7CEB1BE83F2472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				125110DB028F9058E0AB4390 /* Pods-tableImage.debug.xcconfig */,
+				16CA07CB5383713C672F5069 /* Pods-tableImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8479B7909BB4D4D40441204E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A645F300FAF59522D1AFC7 /* Pods_tableImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 089C5C8421A5773700302735 /* Build configuration list for PBXNativeTarget "tableImage" */;
 			buildPhases = (
+				EF7C245FC5014154C953B30D /* [CP] Check Pods Manifest.lock */,
 				089C5C6E21A5773600302735 /* Sources */,
 				089C5C6F21A5773600302735 /* Frameworks */,
 				089C5C7021A5773600302735 /* Resources */,
+				BAFE6DD5B27712F1FC0AC9BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +162,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BAFE6DD5B27712F1FC0AC9BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tableImage/Pods-tableImage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableImage/Pods-tableImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7C245FC5014154C953B30D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tableImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		089C5C6E21A5773600302735 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +210,8 @@
 			files = (
 				089C5C7821A5773600302735 /* ViewController.swift in Sources */,
 				089C5C7621A5773600302735 /* AppDelegate.swift in Sources */,
+				08D9FD7D21A595B600B565F8 /* TCell.swift in Sources */,
+				08D9FD7B21A58C4D00B565F8 /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,15 +355,13 @@
 		};
 		089C5C8521A5773700302735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125110DB028F9058E0AB4390 /* Pods-tableImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q92USUJGJG;
 				INFOPLIST_FILE = tableImage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstacknet.tableImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -298,15 +371,13 @@
 		};
 		089C5C8621A5773700302735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CA07CB5383713C672F5069 /* Pods-tableImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q92USUJGJG;
 				INFOPLIST_FILE = tableImage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstacknet.tableImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

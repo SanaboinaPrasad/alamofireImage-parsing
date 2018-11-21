@@ -1,0 +1,87 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/Pods_tableImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-tableImage-umbrella.h",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/Pods/Target Support Files/Pods-tableImage/Pods-tableImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_tableImage-Swift.h",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/Pods_tableImage.framework/Headers/Pods_tableImage-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sriramprasad/Dev/rough/tableImage/build/Debug-iphonesimulator/Pods_tableImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sriramprasad/Dev/rough/tableImage/build/Pods.build/Debug-iphonesimulator/Pods-tableImage.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

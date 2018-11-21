@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "28342b6cc73e038d3265c217537895da"
+build_time: [1542815697, 707300000]
+inputs:
+  "/Users/sriramprasad/Dev/rough/tableImage/tableImage/ViewController.swift": [1542815690, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/tableImage/AppDelegate.swift": [1542799286, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/tableImage/TCell.swift": [1542807806, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/tableImage/NetworkHandler.swift": [1542805808, 0]

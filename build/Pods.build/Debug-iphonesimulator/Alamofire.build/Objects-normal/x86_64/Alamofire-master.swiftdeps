@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "354710d0eb1f2e17051377ca8cecb5e0"
+build_time: [1542815691, 484100000]
+inputs:
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/AFError.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/Alamofire.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/MultipartFormData.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/Notifications.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/ParameterEncoding.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/Request.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/Response.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/ResponseSerialization.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/Result.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/SessionDelegate.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/SessionManager.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/TaskDelegate.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/Timeline.swift": [1542804483, 0]
+  "/Users/sriramprasad/Dev/rough/tableImage/Pods/Alamofire/Source/Validation.swift": [1542804483, 0]
